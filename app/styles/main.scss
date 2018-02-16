@@ -1,0 +1,55 @@
+* {box-sizing:border-box}
+#fonts a%font {font-family: 'Alegreya Sans SC', sans-serif;
+color: dimgray};
+
+body, html {
+  height: 100%;
+  display:flex;
+  flex-flow: column nowrap;
+  align-items:center;
+  justify-content: space-between;
+  background-image: url("../background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.resume-image {
+  border-radius: 75%;
+  max-width: 170px;
+  margin-bottom: 30px;
+  padding:16px;
+}
+
+.name {
+    background: white;
+    @extend %font;
+    font-size: 90px;
+  width: 800px;
+  display: flex;
+  align-items:center;
+  justify-content: Stretch;
+  margin:16px;
+  }
+
+.IDs{
+  background:white;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin:16px;
+}
+
+  .contents{
+    background: white;
+    @extend %font;
+    width: 800px;
+    margin:16px;
+    padding: 16px;
+  }
+
+ h2 {text-indent: 50px;
+ }
